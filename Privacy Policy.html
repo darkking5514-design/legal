@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — QR & Barcode Toolkit by RH Studio</title>
+<meta name="description" content="Official Privacy Policy for QR & Barcode Toolkit, an offline Android app by RH Studio for scanning and generating QR Codes and Barcodes. Learn what data is and isn't collected.">
+<meta name="keywords" content="QR Barcode Toolkit privacy policy, RH Studio, QR code scanner privacy, barcode scanner privacy, Android app privacy policy, AdMob privacy">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0F6B5C">
+<link rel="canonical" href="https://rhstudio.github.io/qr-barcode-toolkit/privacy-policy.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy Policy — QR & Barcode Toolkit by RH Studio">
+<meta property="og:description" content="Official Privacy Policy for QR & Barcode Toolkit, an offline Android app for scanning and generating QR Codes and Barcodes.">
+<meta property="og:url" content="https://rhstudio.github.io/qr-barcode-toolkit/privacy-policy.html">
+<meta property="og:site_name" content="QR & Barcode Toolkit">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Privacy Policy — QR & Barcode Toolkit by RH Studio">
+<meta name="twitter:description" content="Official Privacy Policy for QR & Barcode Toolkit, an offline Android app for scanning and generating QR Codes and Barcodes.">
+
+<style>
+  :root{
+    --ink:#12211d;
+    --ink-soft:#3d5650;
+    --paper:#f6f8f7;
+    --card:#ffffff;
+    --line:#dfe6e3;
+    --brand:#0f6b5c;
+    --brand-deep:#0a4f44;
+    --brand-tint:#e4f2ee;
+    --accent:#c76b3c;
+    --focus:#1b7f6b;
+    --radius:14px;
+    --shadow: 0 1px 2px rgba(18,33,29,0.04), 0 8px 24px rgba(18,33,29,0.06);
+    --maxw: 1120px;
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#e9f1ee;
+      --ink-soft:#aebdb8;
+      --paper:#0e1613;
+      --card:#151f1c;
+      --line:#243430;
+      --brand:#3fae97;
+      --brand-deep:#8fd8c6;
+      --brand-tint:#16241f;
+      --accent:#e0895a;
+      --focus:#5fc8b0;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 28px rgba(0,0,0,0.45);
+    }
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{color:var(--brand-deep);}
+  a:focus-visible, button:focus-visible, summary:focus-visible{
+    outline:3px solid var(--focus);
+    outline-offset:2px;
+    border-radius:4px;
+  }
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px;}
+
+  /* Header */
+  header.site{
+    position:sticky; top:0; z-index:40;
+    background:color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .site-bar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 20px; max-width:var(--maxw); margin:0 auto; gap:12px;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    font-weight:700; font-size:1.02rem; color:var(--ink); text-decoration:none;
+  }
+  .brand svg{flex:none;}
+  .site-bar .tag{
+    font-size:0.78rem; color:var(--ink-soft);
+    padding:6px 10px; border:1px solid var(--line); border-radius:999px;
+    display:none;
+  }
+  @media (min-width:560px){ .site-bar .tag{display:inline-block;} }
+
+  /* Hero */
+  .hero{
+    padding:64px 0 44px;
+    border-bottom:1px solid var(--line);
+  }
+  .hero .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:0.8rem; letter-spacing:0.06em; text-transform:uppercase;
+    color:var(--brand-deep); background:var(--brand-tint);
+    padding:6px 12px; border-radius:999px; font-weight:600;
+  }
+  .hero h1{
+    font-size:clamp(1.9rem, 4.4vw, 3rem);
+    line-height:1.12;
+    margin:20px 0 14px;
+    letter-spacing:-0.01em;
+    max-width:16ch;
+  }
+  .hero p.lead{
+    max-width:62ch; color:var(--ink-soft); font-size:1.08rem; margin:0 0 22px;
+  }
+  .hero .meta-row{
+    display:flex; flex-wrap:wrap; gap:10px 22px; font-size:0.9rem; color:var(--ink-soft);
+  }
+  .hero .meta-row strong{color:var(--ink);}
+  .offline-strip{
+    margin-top:28px; display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:10px;
+  }
+  .offline-chip{
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:12px 14px; display:flex; align-items:center; gap:10px; box-shadow:var(--shadow);
+    font-size:0.86rem; color:var(--ink-soft);
+  }
+  .offline-chip svg{flex:none; color:var(--brand);}
+
+  /* Layout */
+  .layout{
+    display:grid; grid-template-columns: 260px 1fr; gap:36px;
+    padding:40px 0 80px; align-items:start;
+  }
+  @media (max-width:860px){
+    .layout{grid-template-columns:1fr;}
+  }
+
+  nav.toc{
+    position:sticky; top:78px;
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:18px; box-shadow:var(--shadow); max-height:calc(100vh - 110px); overflow-y:auto;
+  }
+  nav.toc h2{
+    font-size:0.78rem; text-transform:uppercase; letter-spacing:0.07em;
+    color:var(--ink-soft); margin:0 0 10px;
+  }
+  nav.toc ol{list-style:none; margin:0; padding:0; counter-reset:toc;}
+  nav.toc li{counter-increment:toc; margin:0;}
+  nav.toc a{
+    display:flex; gap:10px; padding:7px 6px; border-radius:8px;
+    text-decoration:none; color:var(--ink-soft); font-size:0.89rem; line-height:1.3;
+  }
+  nav.toc a::before{
+    content: counter(toc, decimal-leading-zero);
+    font-variant-numeric:tabular-nums; color:var(--brand); font-weight:700; font-size:0.78rem;
+    flex:none; padding-top:1px;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible{background:var(--brand-tint); color:var(--ink);}
+
+  @media (max-width:860px){
+    nav.toc{position:static; max-height:none;}
+    nav.toc details{border-top:1px solid var(--line); padding-top:10px;}
+  }
+
+  main{min-width:0;}
+
+  section.card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:28px 26px; margin-bottom:20px;
+    scroll-margin-top:78px;
+  }
+  section.card h2{
+    display:flex; align-items:center; gap:12px;
+    font-size:1.3rem; margin:0 0 14px; letter-spacing:-0.01em;
+  }
+  section.card h2 .num{
+    font-size:0.78rem; font-weight:700; color:var(--brand);
+    background:var(--brand-tint); border-radius:8px; padding:4px 9px;
+    font-variant-numeric:tabular-nums;
+  }
+  section.card h3{font-size:1.02rem; margin:22px 0 8px;}
+  section.card p{margin:0 0 12px; color:var(--ink-soft);}
+  section.card ul, section.card ol{margin:0 0 12px; padding-left:22px; color:var(--ink-soft);}
+  section.card li{margin-bottom:6px;}
+  section.card strong{color:var(--ink);}
+
+  .note{
+    display:flex; gap:12px; background:var(--brand-tint); border:1px solid var(--line);
+    border-radius:10px; padding:14px 16px; margin:14px 0; font-size:0.93rem;
+  }
+  .note svg{flex:none; color:var(--brand-deep); margin-top:2px;}
+  .note p{margin:0; color:var(--ink);}
+
+  table{
+    width:100%; border-collapse:collapse; margin:14px 0 18px; font-size:0.92rem;
+    overflow:hidden; border-radius:10px; border:1px solid var(--line);
+  }
+  thead th{
+    background:var(--brand-tint); text-align:left; padding:10px 12px;
+    font-size:0.78rem; text-transform:uppercase; letter-spacing:0.04em; color:var(--brand-deep);
+  }
+  tbody td{padding:10px 12px; border-top:1px solid var(--line); color:var(--ink-soft);}
+  tbody tr:nth-child(even){background:color-mix(in srgb, var(--brand-tint) 35%, transparent);}
+
+  .not-collected-grid{
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+    gap:8px; margin:14px 0 6px;
+  }
+  .not-collected-grid span{
+    display:flex; align-items:center; gap:8px;
+    background:var(--paper); border:1px solid var(--line); border-radius:9px;
+    padding:8px 10px; font-size:0.85rem; color:var(--ink-soft);
+  }
+  .not-collected-grid svg{flex:none; color:var(--accent);}
+
+  .perm-grid{display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); margin:14px 0;}
+  .perm-card{
+    border:1px solid var(--line); border-radius:12px; padding:16px; background:var(--paper);
+  }
+  .perm-card h3{margin:8px 0 6px; font-size:0.98rem; display:flex; align-items:center; gap:8px;}
+  .perm-card svg{color:var(--brand);}
+  .perm-card p{margin:0; font-size:0.89rem;}
+
+  footer.site{
+    border-top:1px solid var(--line); padding:40px 0 60px; margin-top:20px;
+  }
+  .footer-grid{
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; margin-bottom:24px;
+  }
+  .footer-grid h3{font-size:0.9rem; margin:0 0 10px; color:var(--ink);}
+  .footer-grid p, .footer-grid a{font-size:0.88rem; color:var(--ink-soft); text-decoration:none;}
+  .footer-grid a:hover{color:var(--brand-deep);}
+  .footer-bottom{
+    border-top:1px solid var(--line); padding-top:18px; display:flex; flex-wrap:wrap;
+    justify-content:space-between; gap:10px; font-size:0.82rem; color:var(--ink-soft);
+  }
+
+  #backToTop{
+    position:fixed; right:20px; bottom:20px; z-index:50;
+    width:46px; height:46px; border-radius:50%; border:1px solid var(--line);
+    background:var(--brand); color:#fff; box-shadow:var(--shadow);
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    opacity:0; pointer-events:none; transform:translateY(8px);
+    transition:opacity .25s ease, transform .25s ease;
+  }
+  #backToTop.show{opacity:1; pointer-events:auto; transform:translateY(0);}
+  #backToTop:hover{background:var(--brand-deep);}
+
+  @media print{
+    header.site, nav.toc, #backToTop{display:none !important;}
+    .layout{display:block; padding:0;}
+    section.card{box-shadow:none; border:none; page-break-inside:avoid; padding:0; margin-bottom:18px;}
+    body{background:#fff; color:#000;}
+  }
+
+  .skip-link{
+    position:absolute; left:-999px; top:auto;
+    background:var(--brand); color:#fff; padding:10px 16px; border-radius:8px; z-index:100;
+  }
+  .skip-link:focus{left:20px; top:20px;}
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site">
+  <div class="site-bar">
+    <a class="brand" href="#top">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+        <rect x="14" y="2" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+        <rect x="2" y="14" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/>
+        <rect x="15" y="15" width="2.4" height="2.4" fill="currentColor"/>
+        <rect x="19.6" y="15" width="2.4" height="2.4" fill="currentColor"/>
+        <rect x="15" y="19.6" width="2.4" height="2.4" fill="currentColor"/>
+        <rect x="19.6" y="19.6" width="2.4" height="2.4" fill="currentColor"/>
+      </svg>
+      QR & Barcode Toolkit
+    </a>
+    <span class="tag">Privacy Policy · v1.0</span>
+  </div>
+</header>
+
+<div id="top"></div>
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 8.9-8 10.5-4.6-1.6-8-5.5-8-10.5v-6L12 2z" stroke="currentColor" stroke-width="1.8"/></svg>
+      Privacy Policy
+    </span>
+    <h1>Your data stays on your device — that's the whole design.</h1>
+    <p class="lead">This Privacy Policy explains how <strong>RH Studio</strong> handles information in connection with the <strong>QR & Barcode Toolkit</strong> Android application. Read it in full before using the application.</p>
+    <div class="meta-row">
+      <span><strong>Effective Date:</strong> July 29, 2026</span>
+      <span><strong>Last Updated:</strong> July 29, 2026</span>
+      <span><strong>Version:</strong> 1.0</span>
+      <span><strong>Developer:</strong> RH Studio, Pakistan</span>
+    </div>
+
+    <div class="offline-strip">
+      <div class="offline-chip">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12a8 8 0 1116 0 8 8 0 01-16 0z" stroke="currentColor" stroke-width="1.6"/><path d="M2 12h2M20 12h2M12 2v2M12 20v2" stroke="currentColor" stroke-width="1.6"/></svg>
+        No account or login required
+      </div>
+      <div class="offline-chip">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.6-3 8.2-7 9.7C8 19.2 5 15.6 5 11V6l7-3z" stroke="currentColor" stroke-width="1.6"/></svg>
+        No server storing your data
+      </div>
+      <div class="offline-chip">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 8h.01M8 12h.01M8 16h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        History & favorites stay local
+      </div>
+      <div class="offline-chip">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg>
+        Works fully offline
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap layout">
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#how-it-works">How the App Works</a></li>
+      <li><a href="#permissions">Permissions We Use</a></li>
+      <li><a href="#admob">Google AdMob & Advertising</a></li>
+      <li><a href="#not-collected">Data We Do Not Collect</a></li>
+      <li><a href="#local-storage">Local Data Storage</a></li>
+      <li><a href="#external-links">External Links</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#security">Data Security</a></li>
+      <li><a href="#rights">Your Rights & Choices</a></li>
+      <li><a href="#third-parties">Third-Party Services</a></li>
+      <li><a href="#changes">Policy Changes</a></li>
+      <li><a href="#contact">Contact Information</a></li>
+      <li><a href="#disclaimer">Legal Disclaimer</a></li>
+    </ol>
+  </nav>
+
+  <main id="main-content">
+
+    <section class="card" id="introduction">
+      <h2><span class="num">01</span>Introduction</h2>
+      <p><strong>QR & Barcode Toolkit</strong> ("the Application") is developed and published by <strong>RH Studio</strong> ("we", "us", "our", "the Developer"), based in Pakistan. This Privacy Policy describes how information is handled when you download, install, and use the Application on the Android platform.</p>
+      <p>The Application is an <strong>offline utility tool</strong> for scanning and generating QR Codes and Barcodes. It does not require user registration, an account, a login, or a password, and it does not rely on cloud storage, a remote database, or a backend server to function.</p>
+      <p>By installing or using the Application, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with any part of this Policy, please do not use the Application.</p>
+    </section>
+
+    <section class="card" id="how-it-works">
+      <h2><span class="num">02</span>How the Application Works</h2>
+      <p>The Application is designed to operate primarily <strong>offline</strong>, and all of its core functionality is performed locally on your device:</p>
+      <ul>
+        <li>QR Code and Barcode <strong>scanning</strong> happens entirely on your device.</li>
+        <li>QR Code <strong>generation</strong> happens entirely on your device.</li>
+        <li>Saving a generated QR Code as a <strong>PNG image</strong> happens entirely on your device and the file remains on your device.</li>
+        <li><strong>Scan history</strong> is stored locally on your device.</li>
+        <li><strong>Favorite scans</strong> are stored locally on your device.</li>
+      </ul>
+      <p>No scanned information is uploaded, no generated QR Codes are uploaded, no history is synchronized to any server, and no files are ever transferred to RH Studio. RH Studio does not operate a server that stores or processes user information generated by the Application.</p>
+      <p>The Application supports detection and display of the following content types encoded within scanned QR Codes and Barcodes: website URLs, email addresses, phone numbers, SMS messages, Wi-Fi credentials, geo-location data, contact (vCard) details, and calendar events. This detected content is displayed to you locally and is not transmitted anywhere by the Application.</p>
+      <div class="note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <p>The Application can <strong>generate QR Codes only</strong>. It does not generate Barcodes. It can <strong>scan both</strong> QR Codes and Barcodes.</p>
+      </div>
+    </section>
+
+    <section class="card" id="permissions">
+      <h2><span class="num">03</span>Permissions We Use</h2>
+      <p>The Application requests a limited set of Android permissions, each used strictly for the purpose described below.</p>
+      <div class="perm-grid">
+        <div class="perm-card">
+          <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="14" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M17 10l4-2v9l-4-2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Camera</h3>
+          <p>Used <strong>only</strong> to scan QR Codes and Barcodes, including operating the flashlight during scanning. The Application never records video, never captures or stores photographs, and camera data is never uploaded. Camera access is active only while the scanner screen is open.</p>
+        </div>
+        <div class="perm-card">
+          <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 7l2-3h12l2 3M4 7h16M4 7v11a2 2 0 002 2h12a2 2 0 002-2V7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Storage / Media Access</h3>
+          <p>Used <strong>only</strong> when you choose to save a generated QR Code as a PNG image, or select an image for a supported feature. The Application never accesses unrelated files on your device and never uploads any file.</p>
+        </div>
+        <div class="perm-card">
+          <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.5 2.5 4 5.6 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.6-4-9s1.5-6.5 4-9z" stroke="currentColor" stroke-width="1.6"/></svg>Internet</h3>
+          <p>The Application itself does not browse the internet. This permission is required only to (1) display Google AdMob advertisements, and (2) open a scanned website URL in your default web browser, but only after you explicitly tap that link. Your device's browser handles all subsequent communication with that website.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="admob">
+      <h2><span class="num">04</span>Google AdMob & Advertising</h2>
+      <p>The Application displays advertisements using <strong>Google AdMob</strong>, a service provided by Google. To deliver and measure advertisements, Google AdMob may automatically collect limited, non-personal information, including but not limited to:</p>
+      <ul>
+        <li>Advertising ID</li>
+        <li>Device information</li>
+        <li>App interaction data</li>
+        <li>Diagnostic information</li>
+        <li>Approximate location, where applicable</li>
+        <li>Ad performance data</li>
+      </ul>
+      <div class="note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg>
+        <p><strong>RH Studio does not directly collect, store, access, sell, or share</strong> any advertising information gathered by Google AdMob. This data is processed by Google in accordance with Google's own Privacy Policy.</p>
+      </div>
+      <p>You can review Google's practices here: <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">https://policies.google.com/privacy</a>.</p>
+      <p>Where supported by your device, you may manage ad personalization preferences through your Google account settings.</p>
+    </section>
+
+    <section class="card" id="not-collected">
+      <h2><span class="num">05</span>Data We Do Not Collect</h2>
+      <p>RH Studio has no backend server and does not collect any of the following information through the Application:</p>
+      <div class="not-collected-grid">
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Full name</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Username</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Email address</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Phone number</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Passwords</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Banking information</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Credit/debit card info</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Government ID</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Passport information</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Driving license</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Exact GPS location</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Contacts</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Photos</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Videos</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Audio recordings</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Messages</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Calendar data</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Browsing history</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Search history</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Clipboard data</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Health information</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Biometric information</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Personal documents</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>User accounts</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Cloud data</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Analytics</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Server logs</span>
+        <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Personally identifiable info</span>
+      </div>
+      <p>RH Studio maintains no backend server capable of receiving, storing, or processing any of the categories listed above.</p>
+    </section>
+
+    <section class="card" id="local-storage">
+      <h2><span class="num">06</span>Local Data Storage</h2>
+      <ul>
+        <li>Scan <strong>history</strong> remains stored locally on your device.</li>
+        <li><strong>Favorite</strong> scans remain stored locally on your device.</li>
+        <li>Generated <strong>PNG</strong> files remain stored locally on your device.</li>
+      </ul>
+      <p>You may delete this locally stored information at any time from within the Application. Uninstalling the Application may also remove locally stored data, depending on your device's settings. None of this information is synchronized online or transmitted to RH Studio at any point.</p>
+    </section>
+
+    <section class="card" id="external-links">
+      <h2><span class="num">07</span>External Links</h2>
+      <p>Some QR Codes you scan may contain links to third-party websites. The Application opens such links <strong>only after you explicitly choose to open them</strong>, using your device's default web browser.</p>
+      <p>External websites are operated by independent third parties. RH Studio has no control over, and assumes no responsibility for, the content, security, availability, or privacy practices of any third-party website. We encourage you to review the privacy policy of any external website before providing personal information to it.</p>
+    </section>
+
+    <section class="card" id="children">
+      <h2><span class="num">08</span>Children's Privacy</h2>
+      <p>The Application is not specifically directed toward children under the age of 13. RH Studio does not knowingly collect personal information from children. If a parent or guardian believes that a child has provided personal information through the Application, please contact us using the details in the <a href="#contact">Contact Information</a> section so that appropriate action can be taken.</p>
+    </section>
+
+    <section class="card" id="security">
+      <h2><span class="num">09</span>Data Security</h2>
+      <p>Because the Application operates primarily offline, the information it generates — such as scan history, favorites, and saved PNG files — remains on your own device rather than on any external server. RH Studio follows reasonable practices intended to support the security of the Application.</p>
+      <p>However, no method of electronic storage or transmission is completely secure, and no system can guarantee absolute security. We encourage you to keep your Android device, operating system, and applications updated, and to use appropriate device-level security measures such as screen locks and encryption.</p>
+    </section>
+
+    <section class="card" id="rights">
+      <h2><span class="num">10</span>Your Rights & Choices</h2>
+      <p>Because the Application does not maintain accounts or a backend server, most privacy choices are already in your direct control on your device. You may at any time:</p>
+      <ul>
+        <li>Delete your scan history</li>
+        <li>Delete your favorite scans</li>
+        <li>Delete generated PNG files</li>
+        <li>Revoke the Camera permission through Android system settings</li>
+        <li>Uninstall the Application</li>
+        <li>Stop using the Application at any time, without consequence</li>
+      </ul>
+      <p>You may also contact RH Studio directly to request privacy-related information about the Application, using the details provided in the <a href="#contact">Contact Information</a> section.</p>
+    </section>
+
+    <section class="card" id="third-parties">
+      <h2><span class="num">11</span>Third-Party Services</h2>
+      <table>
+        <thead>
+          <tr><th scope="col">Service / Component</th><th scope="col">Role</th><th scope="col">Reference</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google AdMob</td>
+            <td>Displays in-app advertisements and may collect limited non-personal advertising data as described in Section 4.</td>
+            <td><a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a></td>
+          </tr>
+          <tr>
+            <td>Google Privacy Policy</td>
+            <td>Governs how Google, as an independent data controller, processes advertising-related data.</td>
+            <td><a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">policies.google.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Android Operating System</td>
+            <td>Provides the underlying platform permissions (Camera, Storage, Internet) that the Application requests.</td>
+            <td>Governed by your device manufacturer and Google's Android policies</td>
+          </tr>
+          <tr>
+            <td>Default Device Browser</td>
+            <td>Opens scanned website URLs only when you explicitly tap a link; handles all resulting web traffic.</td>
+            <td>Governed by your chosen browser's own privacy policy</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>RH Studio is not responsible for the privacy practices of these third-party services and encourages you to review their respective policies.</p>
+    </section>
+
+    <section class="card" id="changes">
+      <h2><span class="num">12</span>Policy Changes</h2>
+      <p>RH Studio may update this Privacy Policy from time to time to reflect changes in the Application's functionality, legal requirements, or industry practice. Any changes will be reflected by an updated "Last Updated" date at the top of this page. We encourage you to review this Privacy Policy periodically to stay informed about how the Application handles information.</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2><span class="num">13</span>Contact Information</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the Application's privacy practices, please contact:</p>
+      <table>
+        <tbody>
+          <tr><td><strong>Developer</strong></td><td>RH Studio</td></tr>
+          <tr><td><strong>Email</strong></td><td><a href="mailto:riderhunter301@gmail.com">riderhunter301@gmail.com</a></td></tr>
+          <tr><td><strong>Country</strong></td><td>Pakistan</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" id="disclaimer">
+      <h2><span class="num">14</span>Legal Disclaimer</h2>
+      <p>This Privacy Policy is provided for informational purposes to describe the privacy practices of the QR & Barcode Toolkit Android application. It is not intended as, and should not be construed as, legal advice. This Policy should be interpreted in accordance with the applicable laws and regulations of the jurisdictions in which the Application is distributed and used, including but not limited to applicable data protection laws such as the GDPR and CCPA where relevant. If any provision of this Policy is found to be unenforceable, the remaining provisions shall continue in full force and effect.</p>
+    </section>
+
+  </main>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>QR & Barcode Toolkit</h3>
+        <p>An offline Android tool for scanning and generating QR Codes and Barcodes, by RH Studio.</p>
+      </div>
+      <div>
+        <h3>Document</h3>
+        <p>Privacy Policy Version 1.0</p>
+        <p>Effective Date: July 29, 2026</p>
+        <p>Last Updated: July 29, 2026</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="mailto:riderhunter301@gmail.com">riderhunter301@gmail.com</a></p>
+        <p>Pakistan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 RH Studio. All rights reserved.</span>
+      <span>QR & Barcode Toolkit — Privacy Policy</span>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top" title="Back to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+  (function(){
+    var btn = document.getElementById('backToTop');
+    function toggle(){
+      if(window.scrollY > 420){ btn.classList.add('show'); }
+      else{ btn.classList.remove('show'); }
+    }
+    window.addEventListener('scroll', toggle, {passive:true});
+    btn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+    toggle();
+  })();
+</script>
+
+</body>
+</html>
